@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -8,6 +9,35 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ndq-api" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ndq-api" />
+            <option value="$PROJECT_DIR$/ndq-common" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ndq-batch" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ndq-batch" />
+            <option value="$PROJECT_DIR$/ndq-common" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ndq-common" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ndq-common" />
           </set>
         </option>
       </GradleProjectSettings>
